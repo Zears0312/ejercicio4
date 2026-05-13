@@ -5,15 +5,15 @@ class Program
     static void Main()
     {
         //21. Verificar si un numero es par o impar con if.
-        int numero = 10/2;
-        if (numero)
+        int numero5 = 11;
+        if (numero5%2==0)
         {
-            Console.WriteLine($"Tu numero es par: {numero}");
+            Console.WriteLine($"Tu numero es par");
 
         }
         else
         {
-            Console.WriteLine($"Tu numero no es par: {numero}");
+            Console.WriteLine($"Tu numero no es par");
         }
         //22. Clasificar un numero como positivo, negativo o cero.
         int positivo = 5;
@@ -31,15 +31,15 @@ class Program
             Console.WriteLine("Sos menor de edad");
         }
         //24. Usar && para verificar que un numero esta entre 1 y 100.
-        int condicion = 50;
-        int condicion2 = 100;
-        if (condicion && condicion2)
+        int numero = 50; 
+
+        if (numero >= 1 && numero <= 100)
         {
-            Console.WriteLine("Tu condicion esta entre el 1 y 100");
+            Console.WriteLine("Tu numero esta entre el 1 y 100");
         }
         else
         {
-            Console.WriteLine("Tu condicion no esta entre 1 y 100");
+            Console.WriteLine("Tu numero no esta entre 1 y 100");
         }
         //25. Usar || para verificar si es fin de semana (sabado o domingo).
         string dia = "sabado";
@@ -73,15 +73,18 @@ class Program
             break;
             case 7: Console.WriteLine("Domingo");
             break;
-            case default: Console.WriteLine("Dia invalido");
+            default: Console.WriteLine("Dia invalido");
+            break;
 
         }  
         //28. Crear switch expression para categorias de producto.
         int producto = 1;
         string nombreProducto = producto switch
         {
-            1 => "Zapatos", 2=> "Herramientas", 3=>"Cajas" 
+            1 => "Zapatos", 2=> "Herramientas", 3=>"Cajas", _=>"No entra en esta lista."
+            
         };
+        
         //29. Usar if anidado: mayor de edad Y tiene licencia.
         int edad5 = 19;
         bool licencia = true;
