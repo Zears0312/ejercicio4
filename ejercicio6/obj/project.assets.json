@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio4\\Ejercicio4\\Ejercicio4.csproj",
-      "projectName": "Ejercicio4",
-      "projectPath": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio4\\Ejercicio4\\Ejercicio4.csproj",
+      "projectUniqueName": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio6\\ejercicio6.csproj",
+      "projectName": "ejercicio6",
+      "projectPath": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio6\\ejercicio6.csproj",
       "packagesPath": "C:\\Users\\alumno.ET26\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio4\\Ejercicio4\\obj\\",
+      "outputPath": "C:\\Users\\alumno.ET26\\Documents\\ejercicio4\\ejercicio6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno.ET26\\AppData\\Roaming\\NuGet\\NuGet.Config",
