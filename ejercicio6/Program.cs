@@ -31,10 +31,7 @@ class Program
         {
             Console.Write("Ingrese un numero: ");
             numero = int.Parse(Console.ReadLine());
-            if(numero <= 0)
-            {
-                Console.WriteLine("Numero no positivo");
-            }
+            
         }
          while (numero <= 0);
         {

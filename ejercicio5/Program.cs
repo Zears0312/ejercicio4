@@ -4,22 +4,31 @@ class Program
 {
     static void Main()
     {
-        //21. Verificar si un numero es par o impar con if.
+        Console.WriteLine("//21. Verificar si un numero es par o impar con if.");
         int numero5 = 11;
         if (numero5%2==0)
         {
-            Console.WriteLine($"Tu numero es par");
+            Console.WriteLine("Tu numero es par");
 
         }
         else
         {
-            Console.WriteLine($"Tu numero no es par");
+            Console.WriteLine("Tu numero no es par");
         }
-        //22. Clasificar un numero como positivo, negativo o cero.
-        int positivo = 5;
-        int negativo = -3;
-        int cero = 0;
-        //23. Validar mayoria de edad (>= 18) con mensaje descriptivo.
+        Console.WriteLine("//22. Clasificar un numero como positivo, negativo o cero.");
+        int numero3=5;
+        if (numero3 > 0)
+        {
+            Console.WriteLine("Su numero es positivo");
+        }
+        if (numero3 < 0)
+        {
+            Console.WriteLine("Su numero es negativo");
+        } else if (numero3 == 0)
+        {
+            Console.WriteLine("Su numero es cero");
+        }
+        Console.WriteLine("//23. Validar mayoria de edad (>= 18) con mensaje descriptivo.");
         int edad=17;
         if (edad >= 18)
         {
@@ -30,7 +39,7 @@ class Program
         {
             Console.WriteLine("Sos menor de edad");
         }
-        //24. Usar && para verificar que un numero esta entre 1 y 100.
+        Console.WriteLine("//24. Usar && para verificar que un numero esta entre 1 y 100.");
         int numero = 50; 
 
         if (numero >= 1 && numero <= 100)
@@ -41,7 +50,7 @@ class Program
         {
             Console.WriteLine("Tu numero no esta entre 1 y 100");
         }
-        //25. Usar || para verificar si es fin de semana (sabado o domingo).
+        Console.WriteLine("//25. Usar || para verificar si es fin de semana (sabado o domingo).");
         string dia = "sabado";
         if(dia=="sabado" || dia == "lunes")
         {
@@ -51,11 +60,11 @@ class Program
         {
             Console.WriteLine("No es fin de semana");
         }
-        //26. Usar el operador ternario para asignar 'mayor'/'menor' segun edad.
+        Console.WriteLine("//26. Usar el operador ternario para asignar 'mayor'/'menor' segun edad.");
         int edad2 =18;
         string edad3 = edad2 >=18 ? "Mayor":"Menor";
         Console.WriteLine(edad3);
-        //27. Crear switch para dias de la semana.
+        Console.WriteLine("//27. Crear switch para dias de la semana.");
         int dias = 5;
         switch (dias)
         {
@@ -77,15 +86,16 @@ class Program
             break;
 
         }  
-        //28. Crear switch expression para categorias de producto.
-        int producto = 1;
+        Console.WriteLine("//28. Crear switch expression para categorias de producto.");
+        int producto = 2;
         string nombreProducto = producto switch
         {
             1 => "Zapatos", 2=> "Herramientas", 3=>"Cajas", _=>"No entra en esta lista."
             
         };
+        Console.WriteLine(nombreProducto);
         
-        //29. Usar if anidado: mayor de edad Y tiene licencia.
+        Console.WriteLine("//29. Usar if anidado: mayor de edad Y tiene licencia.");
         int edad5 = 19;
         bool licencia = true;
         if (edad5 >= 18)
