@@ -1,0 +1,15 @@
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\bin\Debug\net8.0\ejercicio6.exe
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\bin\Debug\net8.0\ejercicio6.deps.json
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\bin\Debug\net8.0\ejercicio6.runtimeconfig.json
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\bin\Debug\net8.0\ejercicio6.dll
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\bin\Debug\net8.0\ejercicio6.pdb
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.AssemblyInfoInputs.cache
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.AssemblyInfo.cs
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.sourcelink.json
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.dll
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\refint\ejercicio6.dll
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.pdb
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ejercicio6.genruntimeconfig.cache
+C:\Users\Zears\Documents\ejercicio4\ejercicio6\obj\Debug\net8.0\ref\ejercicio6.dll

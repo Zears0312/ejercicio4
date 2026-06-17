@@ -31,14 +31,15 @@ class Program
         {
             Console.Write("Ingrese un numero: ");
             numero = int.Parse(Console.ReadLine());
-            if(numero <= 0)
-            {
-                Console.WriteLine("Numero no positivo");
-            }
+            
         }
          while (numero <= 0);
         {
-            Console.WriteLine("Numero positivo!");
+            Console.WriteLine("Numero negativo, intente nuevamente.");
+            if (numero > 0)
+            {
+                Console.WriteLine("Numero positivo ingresado: " + numero);
+            }
         }
     Console.WriteLine("6. Imprimir tabla de multiplicar del 5.");
     for(int tabla = 5; tabla<=50; tabla += 5)
