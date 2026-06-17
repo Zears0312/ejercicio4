@@ -20,6 +20,14 @@ class Program
     Console.WriteLine("El promedio es: " + (double)suma / notas2.Length);
 
     Console.WriteLine("3. Encontrar el maximo y minimo de un array.");
+    int[] numeros = {6,9,3,10,8};
+    int maximo=numeros[0];
+    int minimo=numeros[0];
+    foreach (int q in numeros)
+    {
+        if(q>maximo) maximo = q;
+        if(q<minimo) minimo = q;
+    }
 
     Console.WriteLine("4. Invertir un array sin usar metodos de .NET.");
     int[] notas3 = { 6, 9, 3, 2, 1};
@@ -46,7 +54,7 @@ class Program
                 SonMayores++;
             }
         }
-    Console.WriteLine("Elementos mayores que 7 son: " + SonMayores);
+    //Elementos mayores que 7 son: " + SonMayores
 
     Console.WriteLine("6. Crear List<string> de tareas y agregar 3 items.");
     List<string> tareas = new List<string>();
