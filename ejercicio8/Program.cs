@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 class Program
 {
     static void Main()
@@ -11,11 +11,22 @@ class Program
         Console.WriteLine("2. Crear metodo Sumar(int a, int b) que retorne la suma.");
         static int Sumar(int a, int b){
             int resultado = a + b;
-            Console.WriteLine("Suma: " + resultado);
+            return resultado;
         }
-        Sumar(5,10);
+        int sum = Sumar(5,10);
         Console.WriteLine("3. Crear metodo EsPar(int n) que retorne bool.");
+        static bool EsPar(int n){
+             
+            if(n% 2 == 0){
+             return true;
+            }else{
+                return false;
+            }
+        }
+        Console.WriteLine("Su numero es par:" + EsPar(6));
+
         Console.WriteLine("4. Crear metodo Mayor(int a, int b) que retorne el mayor.");
+        
         Console.WriteLine("5. Crear metodo CalcularFactorial(int n) con bucle.");
         Console.WriteLine("6. Crear metodo con valor por defecto en parametro.");
         Console.WriteLine("7. Demostrar scope: variable declarada en metodo no existe afuera.");
