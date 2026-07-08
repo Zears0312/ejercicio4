@@ -1,0 +1,5 @@
+C:\Users\Zears\Documents\ejercicio4\ejercicio11\obj\Debug\net9.0\ejercicio11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zears\Documents\ejercicio4\ejercicio11\obj\Debug\net9.0\ejercicio11.AssemblyInfoInputs.cache
+C:\Users\Zears\Documents\ejercicio4\ejercicio11\obj\Debug\net9.0\ejercicio11.AssemblyInfo.cs
+C:\Users\Zears\Documents\ejercicio4\ejercicio11\obj\Debug\net9.0\ejercicio11.csproj.CoreCompileInputs.cache
+C:\Users\Zears\Documents\ejercicio4\ejercicio11\obj\Debug\net9.0\ejercicio11.sourcelink.json

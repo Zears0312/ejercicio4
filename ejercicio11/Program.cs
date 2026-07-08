@@ -2,30 +2,37 @@
 
 public class CuentaBancaria
 {
-    private decimal saldo;
-    private readonly int numeroCuenta;
+    const decimal IVA = 0.21m;
+    private decimal _saldo;
+    private readonly int _numeroCuenta;
+
+    public CuentaBancaria (int NumeroCuenta)
+    {
+        _numeroCuenta = NumeroCuenta;
+    }
 
     public void Depositar(decimal monto)
     {
         if(monto > 0)
         {
-            saldo += monto;
+            _saldo += monto;
         }
     }
     public void Retirar(decimal monto)
     {
-        if(saldo >= monto && monto> 0)
+        if(_saldo >= monto && monto> 0)
         {
-            saldo -= monto;
+            _saldo -= monto;
         }
     }
-    const double IVA = 0.21;
-public class Temperatura
-    {
+    
+}
+public class Clima
+{
     private int _temperatura;
-    public int _Temperatura{
+    public int Temperatura{
         get{return _temperatura;}
-        set{if(value >= -273)
+        set{if(value > -273)
             {
                _temperatura = value;
                 }
@@ -36,9 +43,9 @@ public class Temperatura
         }
         }
         
-        }
+}
 public class Persona
-    {
+{
         private string nombre;
         private string apellido;
         private int dni;
@@ -61,7 +68,7 @@ public class Persona
         public int Edad
         {
             get{return edad;}
-            set{if(value >= 150)
+            set{if(value >= 0 && value <= 150)
                 {
                     edad = value;
                 }
@@ -73,13 +80,25 @@ public class Persona
         }
         
 
-    }
+}
 public class Rectangulo
     {
         public double Ancho;
         public double Alto; 
         
-        public double Perimetro;
+        public double Perimetro
+    {
+        get
+        {
+            return 2 * (Ancho + Alto);
+        }
+    }
         
     }
+class Program
+{
+    static void Main()
+    {
+    
+        }
 }
