@@ -50,6 +50,12 @@ public class Persona
         private string apellido;
         private int dni;
         private int edad;
+        private string _contraseña;
+
+        public string Contraseña
+        {       
+            set { _contraseña = value; } 
+        }
         public string Nombre
         {
             get{return nombre;}
@@ -95,10 +101,3 @@ public class Rectangulo
     }
         
     }
-class Program
-{
-    static void Main()
-    {
-    
-        }
-}
